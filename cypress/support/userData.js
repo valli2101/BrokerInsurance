@@ -1,0 +1,40 @@
+export default userData = {
+  url: "https://demo.guru99.com/insurance/v1/index.php",
+  regoUrl: "https://demo.guru99.com/insurance/v1/register.php",
+  quoteUrl: "https://demo.guru99.com/insurance/v1/new_quotation.php",
+  retrieveQuoteUrl:
+    "https://demo.guru99.com/insurance/v1/retrieve_quotation.php",
+  homePageUrl: "https://demo.guru99.com/insurance/v1/header.php",
+  email: "test@gmail.com",
+  password: "test123",
+  landingPageTitle: "Broker Insurance WebPage",
+  breakDownCoverType: {
+    noCover: "No cover",
+    roadside: "Roadside",
+    atHome: "At home",
+    european: "European",
+  },
+  windScreenRepair: {
+    yes: "yes",
+    no: "no",
+  },
+  incident: "5",
+  vehicleRego: "5001",
+  mileage: "5000",
+  vehilceValue: "10000",
+  parkingType: {
+    driveway: "Driveway",
+    garage: "Garage",
+    public: "Public place",
+    private: "Private Property",
+    road: "Road",
+    unlockedGarage: "Unlocked Garage",
+  },
+  policyDate: {
+    year: "2015",
+    month: "June",
+    date: "14",
+  },
+  windScreenRepairCostWithoutIncident: "21",
+  windScreenRepairCostWithIncident: "30",
+};
